@@ -1,16 +1,97 @@
-# React + Vite
+# React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A hands-on implementation of React Router created as part of my continuous **React & MERN Concepts Revision Series**.
 
-Currently, two official plugins are available:
+This project focuses on understanding and practically implementing client-side routing in a React application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 What is React Router?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React Router is a routing library used in React applications to handle navigation between different pages or views without reloading the entire webpage.
 
-## Expanding the ESLint configuration
+It is commonly used for building **Single Page Applications (SPAs)** where different components are displayed based on the current URL.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Concepts Covered
+
+- React Router DOM setup
+- `BrowserRouter`
+- `Routes`
+- `Route`
+- `Link`
+- `NavLink`
+- Nested Routes
+- `Outlet`
+- Client-side navigation
+- Navigation between components
+- Reusable Navbar
+- Page-based routing
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- React Router DOM
+- JavaScript
+- CSS
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```text
+react_router/
+│
+├── public/
+│
+├── src/
+│   ├── Component/
+│   │   ├── Navbar.jsx
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js_
+
+✨ Features
+Navbar navigation
+Multiple routes
+Nested routing
+Active navigation
+Outlet usage
+🧠 What I Practiced
+BrowserRouter
+Routes
+Route
+Link
+NavLink
+Outlet
+Nested routes
+
+
+Run Locally
+1. Clone the repository
+git clone https://github.com/kaif1906/react-mern-concepts.git
+2. Navigate to the React Router project
+cd react-mern-concepts/react_router
+3. Install dependencies
+npm install
+4. Start the development server
+npm run dev
+
+The application will be available at the local development URL provided by Vite.
